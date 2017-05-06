@@ -1,29 +1,26 @@
 package com.ntust.smartrefrigerator;
 
-import android.app.Activity;
-import android.content.Intent;
+import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.graphics.Color;
-import android.os.Bundle;
+import android.graphics.Paint;
 import android.text.format.DateFormat;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
-
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
-import com.google.zxing.integration.android.IntentResult;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import com.google.zxing.integration.android.IntentIntegrator;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.Calendar;
 import java.util.EnumMap;
 import java.util.Locale;
@@ -56,6 +53,11 @@ public class Utils {
                 bitmap.setPixel(x, y, result.get(x, y) ? Color.BLACK : Color.WHITE);
             }
         }
+        Canvas canvas = new Canvas(bitmap);
+        Paint paint = new Paint();//定義一個畫筆
+        paint.setColor(Color.BLACK);//黑色畫筆
+        paint.setTextSize(30);
+        canvas.drawText("2017/5/6", 75, QRCodeHeight-10 , paint);//繪製文案
         return bitmap;
     }
 
@@ -81,4 +83,6 @@ public class Utils {
         String date = DateFormat.format("yyyy-MM-dd HH:mm", cal).toString();
         return date;
     }
+
+
 }

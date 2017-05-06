@@ -27,13 +27,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Pop food button
-        final Button popFood = (Button) findViewById(R.id.pushFood);
-        pushFood.setOnClickListener(new View.OnClickListener() {
+        final Button popFood = (Button) findViewById(R.id.popFood);
+        popFood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this, PushFoodActivity.class);
+                intent.setClass(MainActivity.this, PopFoodActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        final Button sendMessage = (Button) findViewById(R.id.sendMessage);
+        sendMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PostToServer.PostToServer(MainActivity.this,"FUCK","You");
             }
         });
     }

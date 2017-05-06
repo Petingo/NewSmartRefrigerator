@@ -69,7 +69,7 @@ public class PushFoodActivity extends Activity {
 
         //Database
         DBHelper myDBHelper = new DBHelper(this);
-        final SQLiteDatabase db = myDBHelper.getReadableDatabase();
+        final SQLiteDatabase db = myDBHelper.getWritableDatabase();
         @SuppressLint("Recycle") Cursor cs = db.rawQuery("Select * from REF", null);
         cs.moveToFirst();
 
@@ -104,7 +104,7 @@ public class PushFoodActivity extends Activity {
 
     private void addFood(long timeStamp, String CardID) {
         DBHelper myDBHelper = new DBHelper(this);
-        SQLiteDatabase db = myDBHelper.getReadableDatabase();
+        SQLiteDatabase db = myDBHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("timeStamp", timeStamp);
         values.put("CardID", CardID);

@@ -7,6 +7,18 @@
     tools:context="com.ntust.smartrefrigerator.MainActivity">
 
     <Button
+        android:id="@+id/sendMessage"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="丟東西"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popFood" />
+
+    <Button
         android:id="@+id/popFood"
         android:layout_width="350dp"
         android:layout_height="75dp"

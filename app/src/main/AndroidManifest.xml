@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ntust.smartrefrigerator">
     <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.nfc" android:required="true" />
 
 
@@ -10,6 +11,10 @@
         <category android:name="android.intent.category.DEFAULT" />
         <data android:mimeType="text/plain" />
     </intent-filter>
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode" />
     <meta-data
         android:name="android.nfc.action.TECH_DISCOVERED"
         android:resource="@xml/nfc_tech_filter" />
