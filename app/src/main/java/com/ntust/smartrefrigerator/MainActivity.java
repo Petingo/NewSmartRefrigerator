@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -37,13 +38,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final Button sendMessage = (Button) findViewById(R.id.sendMessage);
-        sendMessage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                PostToServer.PostToServer(MainActivity.this,"FUCK","You");
-            }
-        });
     }
 
 

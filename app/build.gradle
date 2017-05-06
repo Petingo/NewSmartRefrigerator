@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.ntust.smartrefrigerator"
         minSdkVersion 15
@@ -27,9 +28,13 @@ dependencies {
     })
 
     compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.mcxiaoke.volley:library:1.0.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
     testCompile 'junit:junit:4.12'
     compile files('libs/android-integration-3.3.0.jar')
     compile files('libs/core-3.3.0.jar')
+    compile project(':AndroidVisionQRReader')
+
+
 
 }

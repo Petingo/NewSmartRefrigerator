@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/petingo/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_33d39e6c0412af974ae2d391cc5b89dba4297a1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/petingo/Desktop/SmartRefrigerator/app/libs/android-integration-3.3.0.jar"
         jumboMode="true"
         optimize="true"
@@ -34,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2feab3518c474accf7ee4b8c7a3224ce19c8d860">
+        sha1="d4cb3daff3acd8ed64862404bb0b76d72e2017c1">
         <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18c0f774939324f8904675580e528b7aab888a03/classes.dex" />
     </item>
 
