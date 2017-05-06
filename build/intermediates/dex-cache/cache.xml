@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a272a594892752fdc241e598551c9fa7cbd4b284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/libs/android-integration-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e0f3e0def130c30c1fab6f891cf52fb01cc8522b">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-integration-3.3.0_b19c8237d0d277613a8cce014d5c316b534667eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/libs/core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/2/core-3.3.0_e576a0fe521d0f05f247ba025a5153fe24dbef83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8396a8950ebdc011c793afe60a24ab624c19fde1">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18c0f774939324f8904675580e528b7aab888a03/classes.dex" />
+    </item>
+
+</items>
