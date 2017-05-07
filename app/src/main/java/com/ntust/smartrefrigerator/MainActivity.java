@@ -38,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button sendMessage = (Button) findViewById(R.id.sendMessage);
+        sendMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, CheckFoodActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 

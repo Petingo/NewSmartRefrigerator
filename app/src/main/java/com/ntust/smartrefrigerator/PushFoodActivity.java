@@ -66,7 +66,15 @@ public class PushFoodActivity extends ReadNFCCard {
                 tvHint.setText("讀取成功！");
                 tvTime.setText(Utils.getDate(timeStamp));
                 //tvIDAndName.setText("B10533030 台科電資最帥兆哥");
-                tvIDAndName.setText(QRCode);
+                String IDAndName;
+                if(cardID.equals("75FE1662")){
+                    IDAndName = "B10322011 小拉基";
+                } else if(cardID.equals("F511FB61")) {
+                    IDAndName = "B10322022 小夥伴";
+                } else {
+                    IDAndName = "Axxxxxxxx OOO";
+                }
+                tvIDAndName.setText(IDAndName);
                 confirmButton.setVisibility(View.VISIBLE);
 
             }
