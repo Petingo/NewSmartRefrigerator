@@ -2,6 +2,141 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/9bded6475a5aa6c6bb154afccfd1122c0eda8c73/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_5e229a440cdd3d6c619c7ee6fa712de13d873f86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/47df152423f0a6399b2d631617a8bcf524009c8f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_db3b42fa7c1f967c203ac1b3c8b6821e3208193a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/constraint-layout-solver-1.0.0-beta4_1792267f408510a810d776897a7772a39a2c9e51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/7017dff030977c62c40815b8979667edec2c4bfd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_92ffb4cdd00b08086cfe0cf80b4724370e8fea9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/56e732a5b7914f01ead0fdc46c42f46dfe3cd9ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_3bd2c2d8c56288906bc0ead3a4ad11adaa8afd5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/ce62d64caf17851aa7adb3965816b1d906efcfb4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_3aa7fef27316b851e8b2182a0de1cdd3ebdc0b9b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c31ea73dfdfbe70b9d204906e4268814b4b6282">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18c0f774939324f8904675580e528b7aab888a03/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/d0ace1182e783473ba9db24dfbebe54784539a13/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_076bcf9e1800259cf766a81f4c1b947ea17bccfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/981b28e918d9cec475ab63138c74b915e7eef193/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_9ce8ffaf3b2a4675246b2a50c8f1e7d4c727df1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/libs/android-integration-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e0f3e0def130c30c1fab6f891cf52fb01cc8522b">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/android-integration-3.3.0_b19c8237d0d277613a8cce014d5c316b534667eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/6af266703f5d1217b207f8bc8930d3f8ba4d054f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_eaacd7036b60bbe63a22bfd33ecede6d8f6e94eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/f8d558110d6a4fa2f07e3b07a491c1decc2ec75a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_9eaff35bf9345760f09ef7005a6c27c4519605ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/AndroidVisionQRReader/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4d695803b206b3c1aa6d6b15847d9706839030a">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_aad3dddd75fbcc9c5ca13024966f6ace70e662ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/3fd515fcb0bc5f27a72a9d9b506a5fe6b62a37d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_207a285587424bc556e6eab8f3ad4c932100cb8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/4ac951307bf3de5f05c4d59e266514b16467c048/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_b3a5d69c7e33d6eb65292bc528995ecaf7c22978.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -11,6 +146,24 @@
         <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a272a594892752fdc241e598551c9fa7cbd4b284/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/c93f34bdcf0da556926e71b14a52f892415f9651/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_f429cda39fb3d403e14eee01ca3c5567d5211eab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/Desktop/SmartRefrigerator/app/libs/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/core-3.3.0_e576a0fe521d0f05f247ba025a5153fe24dbef83.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/petingo/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
         jumboMode="true"
@@ -18,6 +171,15 @@
         revision="25.0.0"
         sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
         <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_33d39e6c0412af974ae2d391cc5b89dba4297a1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/library-1.0.19_33d39e6c0412af974ae2d391cc5b89dba4297a1e.jar" />
     </item>
     <item
         is-multidex="true"
@@ -38,13 +200,22 @@
         <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/2/core-3.3.0_e576a0fe521d0f05f247ba025a5153fe24dbef83/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/petingo/.android/build-cache/a6b9a3c4b4278daf6d02abfe94e803c10e75fecc/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="0c31ea73dfdfbe70b9d204906e4268814b4b6282">
-        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18c0f774939324f8904675580e528b7aab888a03/classes.dex" />
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/classes_e6a7fbc1c46aaac4f768f90fcdfe07e86082bda9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petingo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/petingo/Desktop/SmartRefrigerator/app/build/intermediates/pre-dexed/release/support-annotations-25.3.1_023feab2f05914c178801f7616077bc8306c0613.jar" />
     </item>
 
 </items>
